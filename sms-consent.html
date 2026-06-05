@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/svg+xml" href="/virtewe-logo.svg" />
+    <link rel="apple-touch-icon" href="/virtewe-logo.svg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMS Notifications | Virtewe</title>
+    <meta
+      name="description"
+      content="How Virtewe SMS notifications work, how to opt in, and how to opt out."
+    />
+
+    <style>
+      :root {
+        --bg: #020617;
+        --panel: #0f172a;
+        --text: #f8fafc;
+        --muted: #94a3b8;
+        --line: #24344d;
+        --indigo: #a5b4fc;
+        --green: #86efac;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.18), transparent 34rem),
+          var(--bg);
+        color: var(--text);
+      }
+
+      a {
+        color: #c7d2fe;
+      }
+
+      .page {
+        width: min(900px, calc(100% - 36px));
+        margin: 0 auto;
+        padding: 32px 0 52px;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding-bottom: 36px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        text-decoration: none;
+      }
+
+      .brand img {
+        width: 58px;
+        height: 58px;
+        border-radius: 16px;
+      }
+
+      .brand-name {
+        font-size: 26px;
+        font-weight: 850;
+        letter-spacing: -0.04em;
+      }
+
+      .brand-tagline {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .card {
+        border: 1px solid var(--line);
+        background: rgba(15, 23, 42, 0.84);
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.25);
+        border-radius: 32px;
+        padding: clamp(24px, 5vw, 48px);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(38px, 5.2vw, 56px);
+        line-height: 1.08;
+        letter-spacing: -0.025em;
+      }
+
+      .updated {
+        margin-top: 10px;
+        color: var(--muted);
+      }
+
+      h2 {
+        margin: 34px 0 10px;
+        font-size: 24px;
+        letter-spacing: -0.03em;
+      }
+
+      p,
+      li {
+        color: #cbd5e1;
+        font-size: 16px;
+        line-height: 1.72;
+      }
+
+      ul {
+        padding-left: 22px;
+      }
+
+      .highlight {
+        border: 1px solid rgba(99, 102, 241, 0.38);
+        background: rgba(99, 102, 241, 0.13);
+        border-radius: 22px;
+        padding: 18px 20px;
+        color: #e0e7ff;
+      }
+
+      footer {
+        margin-top: 28px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="page">
+      <header>
+        <a class="brand" href="/">
+          <img src="./virtewe-logo.svg" alt="Virtewe logo" />
+          <div>
+            <div class="brand-name">Virtewe</div>
+            <div class="brand-tagline">Share the goodness of others.</div>
+          </div>
+        </a>
+
+        <a href="/">Home</a>
+      </header>
+
+      <article class="card">
+        <h1>SMS Notifications</h1>
+        <div class="updated">Last updated: June 1, 2026</div>
+
+        <p>
+          Virtewe offers optional SMS text notifications for account and Nod
+          activity. SMS is not required to create an account, claim a Nod, or use
+          Virtewe.
+        </p>
+
+        <div class="highlight">
+          Users opt in from Profile in the Virtewe app at
+          <a href="https://app.virtewe.com">app.virtewe.com</a>. The consent
+          checkbox is unchecked by default. Consent is separate from account
+          creation.
+        </div>
+
+        <h2>What Virtewe SMS messages include</h2>
+        <ul>
+          <li>Nods sent to you</li>
+          <li>Nod replies or thank-yous</li>
+          <li>Sign-in or claim verification</li>
+          <li>Related account activity</li>
+        </ul>
+
+        <p>
+          Virtewe does not use SMS for marketing, promotions, lead generation,
+          or bulk unsolicited outreach. Message frequency varies. Message and
+          data rates may apply.
+        </p>
+
+        <h2>First contact without SMS</h2>
+        <p>
+          When someone gives you a Nod for the first time, delivery typically
+          happens through native share from the sender’s device, copy link, QR
+          code, or email — not through unsolicited Virtewe SMS to a phone number
+          entered by someone else.
+        </p>
+
+        <h2>How to opt in</h2>
+        <p>
+          Sign in to Virtewe, open Profile, and use the SMS notifications
+          section. Enter your phone number, review the consent language, check
+          the box, and save your preferences. See our
+          <a href="/terms.html">Terms of Service</a> and
+          <a href="/privacy.html">Privacy Policy</a>.
+        </p>
+
+        <h2>How to opt out</h2>
+        <p>
+          Reply <strong>STOP</strong> to any Virtewe text message to unsubscribe.
+          You can also turn off SMS notifications from Profile in the app.
+        </p>
+
+        <h2>Help</h2>
+        <p>
+          Reply <strong>HELP</strong> to any Virtewe text message for support
+          information, or contact
+          <a href="mailto:admin@virtewe.com">admin@virtewe.com</a>.
+        </p>
+
+        <h2>Privacy</h2>
+        <p>
+          We do not sell, rent, or share mobile phone numbers or SMS opt-in
+          consent data for third-party marketing. See our
+          <a href="/privacy.html">Privacy Policy</a> for details.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Emma Jo Holdings, Inc.<br />
+          Virtewe<br />
+          Email: <a href="mailto:admin@virtewe.com">admin@virtewe.com</a>
+        </p>
+      </article>
+
+      <footer>
+        <div>© <span id="year"></span> Virtewe. Built by Emma Jo Holdings, Inc.</div>
+        <div>
+          <a href="/terms.html">Terms</a> ·
+          <a href="/privacy.html">Privacy</a> ·
+          <a href="/sms-consent.html">SMS</a>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
