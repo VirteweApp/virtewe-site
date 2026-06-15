@@ -1,0 +1,12 @@
+# Static marketing site for www.virtewe.com.
+# App deep links (e.g. /admin) do not exist here; send them to the Vercel SPA.
+services:
+  - type: web
+    name: virtewe-site
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    routes:
+      - type: redirect
+        source: /*
+        destination: https://app.virtewe.com/*
